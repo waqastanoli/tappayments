@@ -1,5 +1,7 @@
 {
     "name": "waqastanoli/tappayments",
+    "license": "MIT",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "waqastanoli",
