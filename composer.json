@@ -19,7 +19,14 @@
     "autoload": {
 	    "psr-4": {
 	      "TapPayments\\": "src/"
-	    }
+	    },
+         "classmap": [
+          "src/GoSell.php",
+          "src/Customers.php",
+          "src/Authorize.php",
+          "src/Charges.php",
+          "src/Refunds.php"
+        ]
 	  },
   "autoload-dev": {
     "psr-4": {
