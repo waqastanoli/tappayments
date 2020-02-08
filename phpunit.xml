@@ -9,16 +9,17 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Unit Tests">
+        <testsuite name="TapPayments Unit Tests">
             <directory suffix=".php">./tests/</directory>
         </testsuite>
     </testsuites>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">./app</directory>
+            <directory suffix=".php">./src</directory>
         </whitelist>
     </filter>
     <logging>
         <log type="coverage-php" target="build/cov/coverage.cov"/>
+        <log type="coverage-clover" target="clover.xml" />
     </logging>
 </phpunit>
